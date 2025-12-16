@@ -13,7 +13,7 @@ class AIService:
 
     def __init__(self):
         self.client = None
-        self.model_name = "gemini-2.5-pro"  # 🚨 updated model name
+        self.model_name = "gemini-2.5-flash"  # 🚨 updated model name
         
         self._initialize_client()
 
